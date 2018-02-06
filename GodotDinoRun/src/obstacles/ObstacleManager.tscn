@@ -2,8 +2,9 @@
 
 [ext_resource path="res://src/obstacles/obstacle_manager.gd" type="Script" id=1]
 
-[node name="ObstacleManager" type="Node2D" index="0"]
+[node name="ObstacleManager" type="Node2D"]
 
 script = ExtResource( 1 )
+move_speed = 400
 
 

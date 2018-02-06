@@ -5,9 +5,9 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 10, 10 )
+extents = Vector2( 38.6652, 34.4402 )
 
-[node name="Obstacle" type="Sprite"]
+[node name="Obstacle" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 
@@ -24,5 +24,7 @@ audio_bus_name = "Master"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0"]
 
 shape = SubResource( 1 )
+
+[node name="Graphics" type="Sprite" parent="." index="1"]
 
 

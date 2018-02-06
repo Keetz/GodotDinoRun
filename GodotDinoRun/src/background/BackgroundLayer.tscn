@@ -5,6 +5,6 @@
 [node name="BackgroundLayer" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
-background_image = null
+background_scene = null
 
 

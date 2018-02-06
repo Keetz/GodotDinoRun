@@ -1,6 +1,12 @@
 extends Node2D
 
-export(Texture) var background_image
+export(PackedScene) var background_scene
 
 func _ready():
-	pass
+	instance_backgrounds()
+	
+func instance_backgrounds():
+	for i in range(2):
+		var background_instance = background_scene.instance()
+		add_child(background_instance)
+		

@@ -4,6 +4,8 @@ export var move_speed = 400
 
 onready var obstacle_scenes = [
 	preload("res://src/obstacles/TRex.tscn"),
+	preload("res://src/obstacles/Dragon.tscn"),
+	preload("res://src/obstacles/Pterodactyl.tscn"),
 ]
 
 onready var spawn_point = Vector2(get_viewport_rect().size.x + 200, 0)

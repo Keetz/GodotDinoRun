@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/font-number-40x40.png" type="Texture" id=1]
+
+[node name="ScoreNumber" type="Sprite"]
+
+texture = ExtResource( 1 )
+hframes = 10
+_sections_unfolded = [ "Animation", "Offset" ]
+
+

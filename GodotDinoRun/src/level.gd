@@ -1,15 +1,21 @@
 extends Node2D
 
-# class member variables go here, for example:
-# var a = 2
-# var b = "textvar"
+onready var score_text = get_node("Score")
+
+onready var spawn_timer = Timer.new()
+
+var score = 0
+
+func set_score():
+	score_text.set_score(int(score))
 
 func _ready():
-	# Called every time the node is added to the scene.
-	# Initialization here
-	pass
-
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass
+	spawn_timer.connect("timeout", self, "_on_spawn_timer_timeout")
+	score_text.reset_score()
+	set_score()
+	
+	
+	
+func _process(delta):
+	score += delta * 1000
+	set_score()

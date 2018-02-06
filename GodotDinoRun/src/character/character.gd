@@ -2,7 +2,7 @@ extends Node2D
 
 signal player_died
 
-export var jump_height = 100
+const JUMP_HEIGHT = 150
 
 onready var animation = get_node("AnimationPlayer")
 
@@ -34,11 +34,11 @@ func jump():
 	animation.play("CavemanJump")
 	var jump_anim_length = animation.current_animation_length
 	
-	tween.interpolate_property(self, "position", origin_pos, Vector2(origin_pos.x, origin_pos.y - jump_height), jump_anim_length / 2, Tween.TRANS_LINEAR, Tween.EASE_OUT)
+	tween.interpolate_property(self, "position", origin_pos, Vector2(origin_pos.x, origin_pos.y - JUMP_HEIGHT), jump_anim_length / 2, Tween.TRANS_CUBIC, Tween.EASE_OUT)
 	tween.start()
 	yield(tween, "tween_completed")
 	
-	tween.interpolate_property(self, "position", Vector2(origin_pos.x, origin_pos.y - jump_height), origin_pos, jump_anim_length / 2, Tween.TRANS_LINEAR, Tween.EASE_OUT)
+	tween.interpolate_property(self, "position", Vector2(origin_pos.x, origin_pos.y - JUMP_HEIGHT), origin_pos, jump_anim_length / 2, Tween.TRANS_CUBIC, Tween.EASE_IN)
 	tween.start()
 	yield(tween, "tween_completed")
 	

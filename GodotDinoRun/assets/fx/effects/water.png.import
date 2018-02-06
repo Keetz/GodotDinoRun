@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/water.png-ca3ab558dacc29c9da2ae99d73ea6c6e.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/fx/effects/water.png"
+source_md5="b47a1547b0d64474fa94c26537a2646f"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/water.png-ca3ab558dacc29c9da2ae99d73ea6c6e.stex" ]
+dest_md5="0721eaa6e8b0be2cf372cda1f2fab115"
 
 [params]
 

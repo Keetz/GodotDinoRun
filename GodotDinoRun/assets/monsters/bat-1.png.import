@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/bat-1.png-214aa71f7a0491944dad7e4c73e10e6f.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/monsters/bat-1.png"
+source_md5="9a9dc981928c39c052474f05a555b406"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/bat-1.png-214aa71f7a0491944dad7e4c73e10e6f.stex" ]
+dest_md5="567582cbf07810c693b60d7edc79b583"
 
 [params]
 

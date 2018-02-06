@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/bar-middle.png-2b7f78a6b6f0758accdbe971182ca2a0.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/hud/bar-middle.png"
+source_md5="37474676978a561e6aaaa7b5eeed333d"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/bar-middle.png-2b7f78a6b6f0758accdbe971182ca2a0.stex" ]
+dest_md5="910b6534e99fc246c2aa5bd50ac22824"
 
 [params]
 

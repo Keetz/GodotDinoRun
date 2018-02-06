@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/rock-particle-4.png-4c0f9502853c55537869e38752425d98.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/fx/particles/rock-particle-4.png"
+source_md5="9733c6a76f7ed631dfeaf44c77c21107"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/rock-particle-4.png-4c0f9502853c55537869e38752425d98.stex" ]
+dest_md5="f5d8417d7eded462c4f4da51ed1e1763"
 
 [params]
 

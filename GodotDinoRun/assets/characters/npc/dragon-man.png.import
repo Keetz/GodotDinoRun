@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/dragon-man.png-ad05e4dedff254c5fc0f030f362a77f8.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/characters/npc/dragon-man.png"
+source_md5="6a5122921255d08efb846c6697cd95b8"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/dragon-man.png-ad05e4dedff254c5fc0f030f362a77f8.stex" ]
+dest_md5="dfb7c231d79a724d2bb4993426efaff0"
 
 [params]
 

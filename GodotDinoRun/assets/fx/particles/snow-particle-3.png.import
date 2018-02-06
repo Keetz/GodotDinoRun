@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/snow-particle-3.png-a7221211a1893f95529eb95ecdf029e8.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/fx/particles/snow-particle-3.png"
+source_md5="4b6b21bdcea45fc70799e34cda0044e7"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/snow-particle-3.png-a7221211a1893f95529eb95ecdf029e8.stex" ]
+dest_md5="a291673cd886823a3cbd238edfee693c"
 
 [params]
 

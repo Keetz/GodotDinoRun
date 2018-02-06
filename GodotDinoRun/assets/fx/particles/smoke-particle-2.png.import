@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/smoke-particle-2.png-f932ba0bcc770db6d7ae5de07a49be53.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/fx/particles/smoke-particle-2.png"
+source_md5="ff115074da78199b2c22984cca497309"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/smoke-particle-2.png-f932ba0bcc770db6d7ae5de07a49be53.stex" ]
+dest_md5="909e3f933b8493cdc830fbc58ac35d1b"
 
 [params]
 

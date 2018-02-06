@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/all-characters.png-abab9e29cd0b673df1fcea6e7df94ab0.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/characters/playable/all-characters.png"
+source_md5="824efd6eabd39497ee96d93f64354199"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/all-characters.png-abab9e29cd0b673df1fcea6e7df94ab0.stex" ]
+dest_md5="ced691470924f920c3c441c44129c5b1"
 
 [params]
 

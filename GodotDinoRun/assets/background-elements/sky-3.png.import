@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/sky-3.png-ead77016c017c084246de806d1e31b26.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/background-elements/sky-3.png"
+source_md5="52fa013fc01ef656cd36eb7a2030c1c6"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/sky-3.png-ead77016c017c084246de806d1e31b26.stex" ]
+dest_md5="a8f827f31dd1a8d807c948afa118dca3"
 
 [params]
 

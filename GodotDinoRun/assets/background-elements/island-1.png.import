@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/island-1.png-c97dc55528b9a89a4fe308f6b70b193e.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/background-elements/island-1.png"
+source_md5="e5cd185de65285ac90fcbcf6ab3278b3"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/island-1.png-c97dc55528b9a89a4fe308f6b70b193e.stex" ]
+dest_md5="1a27f8b346e0dc1634285dab4cd5e983"
 
 [params]
 

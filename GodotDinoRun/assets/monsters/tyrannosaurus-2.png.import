@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/tyrannosaurus-2.png-d1d919857263a9454ae9575f00fc3a19.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/monsters/tyrannosaurus-2.png"
+source_md5="d820aaa648b109aec6ebf6e8827c74b8"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/tyrannosaurus-2.png-d1d919857263a9454ae9575f00fc3a19.stex" ]
+dest_md5="e2892e518bff07f99d8c1de2a4c9d1e0"
 
 [params]
 

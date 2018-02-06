@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/leaf-4.png-25628aaa1c27ab98cddc5479f7faccdf.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/fx/particles/leaf-4.png"
+source_md5="2b5275bc4d4721bfad176e7c57bc6d4a"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/leaf-4.png-25628aaa1c27ab98cddc5479f7faccdf.stex" ]
+dest_md5="4656df162990d3e6193737ce20897672"
 
 [params]
 

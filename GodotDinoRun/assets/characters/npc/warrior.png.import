@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/warrior.png-c6a80072bd95edf29bf86be1167410b2.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/characters/npc/warrior.png"
+source_md5="ea7780515c7b6f34c0b2bf0ba68e19fc"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/warrior.png-c6a80072bd95edf29bf86be1167410b2.stex" ]
+dest_md5="a732acba5811a009ee3ed969b52c61d7"
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/wood-particle-2.png-4171a9455cdac652918e38aea0879898.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/fx/particles/wood-particle-2.png"
+source_md5="f8a8e1b59835cd1084fdc5e56bedc080"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/wood-particle-2.png-4171a9455cdac652918e38aea0879898.stex" ]
+dest_md5="2b6164866a71b16066a4927e5c2ef22b"
 
 [params]
 

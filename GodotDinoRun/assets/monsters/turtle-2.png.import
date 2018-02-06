@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/turtle-2.png-078c32f41523d7305ea21b5f0779e16d.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/monsters/turtle-2.png"
+source_md5="b3c114326258472096ec1b8e197de58c"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/turtle-2.png-078c32f41523d7305ea21b5f0779e16d.stex" ]
+dest_md5="5facddb4d443862527c127a475398f7d"
 
 [params]
 

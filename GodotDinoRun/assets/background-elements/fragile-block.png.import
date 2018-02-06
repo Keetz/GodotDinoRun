@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/fragile-block.png-0fb088980f28ac55daaa23b211e3a3c8.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/background-elements/fragile-block.png"
+source_md5="a413ca369f4dbbe01097e5c8ff3106cc"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/fragile-block.png-0fb088980f28ac55daaa23b211e3a3c8.stex" ]
+dest_md5="bb1520def0761c54cc9755e247ea0872"
 
 [params]
 

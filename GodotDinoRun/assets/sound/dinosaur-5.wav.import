@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/dinosaur-5.wav-5a2c7ab885253608b2987ba5c8fc0c2f.sample"
+
+[deps]
+
+source_file="res://assets/sound/dinosaur-5.wav"
+source_md5="d3db831580cccd87fed9fdb82ccfa375"
+
+dest_files=[ "res://.import/dinosaur-5.wav-5a2c7ab885253608b2987ba5c8fc0c2f.sample" ]
+dest_md5="958099515343a1820dab686a044507af"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

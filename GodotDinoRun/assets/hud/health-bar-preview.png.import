@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/health-bar-preview.png-433ac32a6fb924bf2eb3a70f953963c3.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/hud/health-bar-preview.png"
+source_md5="a27c2bc370641c9c17e6da6b95a528f2"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/health-bar-preview.png-433ac32a6fb924bf2eb3a70f953963c3.stex" ]
+dest_md5="846a8c4b4d51d14de540afe505e5d3da"
 
 [params]
 

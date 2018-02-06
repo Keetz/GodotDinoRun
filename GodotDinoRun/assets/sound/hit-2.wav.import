@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hit-2.wav-84c849a5df6cfd71ef65aa556fafb5c8.sample"
+
+[deps]
+
+source_file="res://assets/sound/hit-2.wav"
+source_md5="cc0e9d8f81e269856cdd461d49a859eb"
+
+dest_files=[ "res://.import/hit-2.wav-84c849a5df6cfd71ef65aa556fafb5c8.sample" ]
+dest_md5="7a8f712b13330e7b595e0a77fe557ded"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

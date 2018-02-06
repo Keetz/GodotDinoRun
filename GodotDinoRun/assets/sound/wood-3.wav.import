@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/wood-3.wav-906a54800795098c0a0a6b338eeebf21.sample"
+
+[deps]
+
+source_file="res://assets/sound/wood-3.wav"
+source_md5="0f2ee3312731fca61da896fd8ffbba47"
+
+dest_files=[ "res://.import/wood-3.wav-906a54800795098c0a0a6b338eeebf21.sample" ]
+dest_md5="381fa5e55e5677e78685396d55c09c18"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

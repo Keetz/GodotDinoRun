@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/monster-drops.png-e0557db9a097dfd9ab5c1044b5079b37.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/items/monster-drops.png"
+source_md5="5e6f2bdb57bc731748e53b2e6df8318d"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/monster-drops.png-e0557db9a097dfd9ab5c1044b5079b37.stex" ]
+dest_md5="d4033c02ad84278252e41d6782f5c2bd"
 
 [params]
 

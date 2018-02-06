@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/inventory-case.png-b0d9b5f8499dbefe301ea2cb5c3b1ee1.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/hud/inventory-case.png"
+source_md5="ee052cfe44759ba5d91180cbc979a1f2"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/inventory-case.png-b0d9b5f8499dbefe301ea2cb5c3b1ee1.stex" ]
+dest_md5="116027c70b3a7d5d4d00b4b370ccdad6"
 
 [params]
 

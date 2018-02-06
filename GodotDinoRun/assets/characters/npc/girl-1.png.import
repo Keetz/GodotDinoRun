@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/girl-1.png-997850568183e839aee9adf02a17ab29.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/characters/npc/girl-1.png"
+source_md5="57a02f191a44401e63e4755427c3a490"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/girl-1.png-997850568183e839aee9adf02a17ab29.stex" ]
+dest_md5="741243031bf423526015a65a91760349"
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/dragon-2.png-249fc2aef42b54ae65fed9c68e5b5349.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/monsters/dragon-2.png"
+source_md5="2c63925536964878456cac8c5f2a745c"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/dragon-2.png-249fc2aef42b54ae65fed9c68e5b5349.stex" ]
+dest_md5="76dc0ccfb012c1540b82fed715823603"
 
 [params]
 

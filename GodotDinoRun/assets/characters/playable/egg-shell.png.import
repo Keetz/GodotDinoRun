@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/egg-shell.png-79baa64e868dbd46ab0f34f85866e46e.stex"
 
 [deps]
 
-source_file="res://icon.png"
-source_md5="ae7e641067601e2184afcade49abd283"
+source_file="res://assets/characters/playable/egg-shell.png"
+source_md5="8bbdf82d60f653568cfc4cf55ad604cc"
 
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
-dest_md5="84511021bbc8c9d37c7f0f4d181de883"
+dest_files=[ "res://.import/egg-shell.png-79baa64e868dbd46ab0f34f85866e46e.stex" ]
+dest_md5="0e9dfcf1ff3a8c570e8067358b3b1f91"
 
 [params]
 

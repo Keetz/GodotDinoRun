@@ -1,12 +1,14 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://src/background/background_layer.gd" type="Script" id=1]
+[ext_resource path="res://src/background/SkyGraphics.tscn" type="PackedScene" id=2]
 
-[node name="BackgroundLayer" type="Node2D"]
+[node name="SkyLayer" type="Node2D"]
 
+position = Vector2( 0, 1.50734 )
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
-background_scene = null
+background_scene = ExtResource( 2 )
 background_length = 800
 flip = false
 scroll_time = 100

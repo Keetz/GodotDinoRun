@@ -16,7 +16,9 @@ func _ready():
 func spawn_obstacle():
 	var obstacle_index = randi() % len(obstacle_scenes)
 	var obstacle_instance = obstacle_scenes[obstacle_index].instance()
-	obstacle_instance.set_position(spawn_point)
+	
+	obstacle_instance.set_position(spawn_point + Vector2(0, obstacle_instance.spawn_height))
+
 	add_child(obstacle_instance)
 	
 func _process(delta):

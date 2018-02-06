@@ -10,6 +10,9 @@ var tween = Tween.new()
 
 enum state {RUNNING, JUMPING, DEAD}
 
+var current_state = state.RUNNING
+
+
 func _ready():
 	add_child(tween)
 	
@@ -21,15 +24,16 @@ func _ready():
 
 func _input(event):
 	if event.is_action_pressed("ui_select"):
-		if state != JUMPING:
+		if current_state != state.JUMPING or current_state != state.DEAD:
 			jump()
 
 func run():
-	state = RUNNING
-	animation.play("CavemanRun")
+	if current_state != state.DEAD:
+		current_state = state.RUNNING
+		animation.play("CavemanRun")
 
 func jump():
-	state = JUMPING
+	current_state = state.JUMPING
 	
 	var origin_pos = self.position
 	
@@ -50,10 +54,11 @@ func jump():
 	
 
 func revive():
-	run()
+	current_state = state.RUNNING
+	animation.play("CavemanRun")
 
 func die():
-	state = DEAD
+	current_state = state.DEAD
 	
 	animation.play("CavemanDie")
 	yield(animation, "animation_finished")

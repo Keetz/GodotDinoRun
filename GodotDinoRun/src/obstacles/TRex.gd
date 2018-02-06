@@ -1,4 +1,4 @@
-extends Node2D
+extends "res://src/obstacles/obstacle.gd"
 
 onready var animation = get_node("AnimationPlayer")
 

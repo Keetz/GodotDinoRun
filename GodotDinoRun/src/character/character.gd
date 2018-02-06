@@ -24,7 +24,7 @@ func _ready():
 
 func _input(event):
 	if event.is_action_pressed("ui_select"):
-		if current_state != state.JUMPING or current_state != state.DEAD:
+		if current_state == state.RUNNING:
 			jump()
 
 func run():

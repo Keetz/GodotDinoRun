@@ -75,6 +75,6 @@ func _on_character_died():
 	
 	
 func _input(event):
-	if Input.is_key_pressed(KEY_ENTER) or Input.is_key_pressed(KEY_SPACE):
+	if event.is_action_pressed("ui_select"):
 		game_restart()
 	

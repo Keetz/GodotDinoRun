@@ -1,10 +1,12 @@
-extends Node2D
+extends "res://src/obstacles/obstacle.gd"
 
 onready var animation = get_node("AnimationPlayer")
 
 enum state {FLYING}
 
 func _ready():
+	spawn_height = -50
+	
 	run()
 
 func run():

@@ -5,7 +5,7 @@ onready var animation = get_node("AnimationPlayer")
 enum state {FLYING}
 
 func _ready():
-	spawn_height = -50
+	spawn_height = -100
 	
 	run()
 

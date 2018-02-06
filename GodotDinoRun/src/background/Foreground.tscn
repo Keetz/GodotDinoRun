@@ -2,7 +2,7 @@
 
 [ext_resource path="res://src/background/DirtLayer.tscn" type="PackedScene" id=1]
 
-[node name="Foreground" type="Node2D" index="0"]
+[node name="Foreground" type="Node2D"]
 
 position = Vector2( -3.30139, 669.222 )
 

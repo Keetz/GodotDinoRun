@@ -2,6 +2,8 @@ extends Node2D
 
 export var move_speed = 400
 
+var distance_traveled = 0
+
 onready var obstacle_scenes = [
 	preload("res://src/obstacles/TRex.tscn"),
 	preload("res://src/obstacles/Dragon.tscn"),
@@ -22,9 +24,9 @@ func spawn_obstacle():
 	obstacle_instance.set_position(Vector2(spawn_point.x, spawn_point.y + obstacle_instance.spawn_height))
 	
 func _process(delta):
+	distance_traveled += move_speed * delta
 	var movement = Vector2(move_speed, 0) * delta
 	for obstacle in get_children():
 		obstacle.set_position(obstacle.get_position() - movement)
 		if obstacle.get_position().x < -200:
-			obstacle.queue_free()
-	
+			obstacle.queue_free() 

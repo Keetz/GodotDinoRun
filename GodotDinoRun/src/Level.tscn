@@ -10,16 +10,25 @@
 
 [node name="Level" type="Node2D" index="0"]
 
+pause_mode = 2
 script = ExtResource( 1 )
+_sections_unfolded = [ "Pause" ]
+rampup = 1.05
 
 [node name="Background" parent="." index="0" instance=ExtResource( 2 )]
 
+pause_mode = 1
+_sections_unfolded = [ "Pause", "Transform" ]
+
 [node name="PlayArea" type="Node2D" parent="." index="1"]
 
-editor/display_folded = true
+pause_mode = 1
 position = Vector2( 3.05176e-05, 506.466 )
+_sections_unfolded = [ "Pause" ]
 
 [node name="ObstacleManager" parent="PlayArea" index="0" instance=ExtResource( 3 )]
+
+_sections_unfolded = [ "Transform" ]
 
 [node name="Character" parent="PlayArea" index="1" instance=ExtResource( 4 )]
 
@@ -28,12 +37,15 @@ _sections_unfolded = [ "Animation", "Collision", "Material", "Offset", "Pause", 
 
 [node name="Foreground" parent="." index="2" instance=ExtResource( 5 )]
 
+pause_mode = 1
+_sections_unfolded = [ "Pause" ]
+
 [node name="Score" parent="." index="3" instance=ExtResource( 6 )]
 
 position = Vector2( 489.719, 85.8204 )
 
 [node name="GameOver" parent="." index="4" instance=ExtResource( 7 )]
 
-position = Vector2( 512, 175 )
+position = Vector2( 483.857, 275.844 )
 
 

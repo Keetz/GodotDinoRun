@@ -1,29 +1,28 @@
 extends Node2D
 
+export(float) var rampup = 1.05
+
 onready var score_text = get_node("Score")
 onready var game_over_text = get_node("GameOver")
 onready var obstacle_manager = get_node("PlayArea/ObstacleManager")
 onready var character = get_node("PlayArea/Character")
 
-onready var game_nodes = [
-	get_node("Background"),
-	get_node("Foreground"),
-]
-
+onready var speed_increase_timer = Timer.new()
 onready var spawn_timer = Timer.new()
 
-var score = 0
 
 func set_score():
-	score_text.set_score(int(score))
+	score_text.set_score(int(obstacle_manager.distance_traveled / 20))
 
 func _ready():
+	$Background/ForestLayer.connect("timeout", self, "_on_background_timeout")
 	set_process_input(false)
 	add_child(spawn_timer)
 	character.connect("died", self, "_on_character_died")
+
 	spawn_timer.connect("timeout", self, "_on_spawn_timer_timeout")
 	# long wait time before first obstacle
-	spawn_timer.set_wait_time(0.1)
+	spawn_timer.set_wait_time(2)
 	spawn_timer.start()
 	
 	game_over_text.hide()
@@ -36,10 +35,9 @@ func reset_spawn_timer():
 	spawn_timer.start()
 
 func get_random_timeout():
-	return 1 + 1 * randf()
+	return 0.6 + randf() * 400 / obstacle_manager.move_speed
 	
 func _process(delta):
-	score += delta * 1000
 	set_score()
 	
 func game_restart():
@@ -52,7 +50,7 @@ func game_restart():
 		obstacle_manager.remove_child(obstacle)
 		obstacle.queue_free()
 	
-	score = 0
+	obstacle_manager.distance_traveled = 0
 	score_text.reset_score()
 	set_score()
 	
@@ -61,6 +59,12 @@ func game_restart():
 	spawn_timer.set_wait_time(4)
 	spawn_timer.start()
 	
+
+	obstacle_manager.move_speed = 400
+	$Background/SkyLayer.scroll_time = 500
+	$Background/SeaLayer.scroll_time = 100
+	$Background/ForestLayer.scroll_time = 3
+	$Foreground/DirtLayer.scroll_time = 2
 	
 func _on_spawn_timer_timeout():
 	obstacle_manager.spawn_obstacle()
@@ -70,8 +74,17 @@ func _on_character_died():
 	set_process(false)
 	game_over_text.show()
 	spawn_timer.stop()
+	speed_increase_timer.stop()
 	set_process_input(true)
 	get_tree().paused = true
+	
+func _on_background_timeout():
+	if obstacle_manager.move_speed < 900:
+		obstacle_manager.move_speed *= rampup
+		$Background/ForestLayer.scroll_time /= rampup
+		$Background/SkyLayer.scroll_time /= rampup
+		$Background/SeaLayer.scroll_time /= rampup
+		$Foreground/DirtLayer.scroll_time /= rampup
 	
 	
 func _input(event):

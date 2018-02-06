@@ -13,6 +13,9 @@ export(float) var scroll_time = 100
 var backgrounds = []
 var amount_of_backgrounds
 
+# TODO: signal timer here for change
+signal timeout
+
 func _ready():
 	tween.connect("tween_completed", self, "_on_tween_completed")
 	position = Vector2(-background_length/2, position.y)
@@ -37,6 +40,7 @@ func instance_backgrounds():
 		backgrounds.append(background_instance)
 		
 func start_scrolling():
+	emit_signal("timeout")
 	if flip:
 		position = Vector2(background_length, position.y)
 		var end_position = Vector2(-(background_length * (amount_of_backgrounds - 4)), position.y)

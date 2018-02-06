@@ -4,15 +4,14 @@
 [ext_resource path="res://src/obstacles/Pterodactyl.gd" type="Script" id=2]
 [ext_resource path="res://assets/monsters/pterodactyl-2.png" type="Texture" id=3]
 
-[sub_resource type="CapsuleShape2D" id=2]
+[sub_resource type="CapsuleShape2D" id=1]
 
 custom_solver_bias = 0.0
-radius = 10.0
-height = 20.0
+radius = 5.39149
+height = 27.1228
 
-[sub_resource type="Animation" id=1]
+[sub_resource type="Animation" id=2]
 
-resource_name = "PterodactylFly"
 length = 0.5
 loop = true
 step = 0.1
@@ -29,21 +28,26 @@ tracks/0/keys = {
 "values": [ 0, 4 ]
 }
 
-[node name="Pterodactyl" index="0" instance=ExtResource( 1 )]
+[node name="Pterodactyl" instance=ExtResource( 1 )]
 
 script = ExtResource( 2 )
 _sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
 
+[node name="Area2D" parent="." index="0"]
+
+position = Vector2( 2.14639, -12.6637 )
+
 [node name="CollisionShape2D" parent="Area2D" index="0"]
 
-position = Vector2( -5.89875, 16.88 )
+position = Vector2( -6.32803, 20.0996 )
 rotation = 1.5708
 scale = Vector2( 1.70275, 2.5149 )
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 _sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
 
 [node name="Graphics" parent="." index="1"]
 
+position = Vector2( 6.0099, -16.7419 )
 texture = ExtResource( 3 )
 flip_h = true
 vframes = 4
@@ -58,7 +62,7 @@ autoplay = ""
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
-anims/PterodactylFly = SubResource( 1 )
+anims/PterodactylFly = SubResource( 2 )
 blend_times = [  ]
 
 

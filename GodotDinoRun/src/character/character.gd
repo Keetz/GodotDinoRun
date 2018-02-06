@@ -2,7 +2,7 @@ extends Node2D
 
 signal player_died
 
-const JUMP_HEIGHT = 150
+const JUMP_HEIGHT = 100
 
 onready var animation = get_node("AnimationPlayer")
 

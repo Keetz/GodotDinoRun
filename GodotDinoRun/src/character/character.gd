@@ -1,6 +1,6 @@
-extends Node2D
+extends Area2D
 
-signal player_died
+signal died
 
 const JUMP_HEIGHT = 100
 
@@ -14,6 +14,8 @@ func _ready():
 	add_child(tween)
 	
 	set_process_input(true)
+	
+	connect("area_entered", self, "_on_something_entered")
 	
 	run()
 
@@ -45,6 +47,10 @@ func jump():
 	tween.remove_all()
 	
 	run()
+	
+
+func revive():
+	run()
 
 func die():
 	state = DEAD
@@ -52,4 +58,7 @@ func die():
 	animation.play("CavemanDie")
 	yield(animation, "animation_finished")
 	
-	emit_signal("player_died")
+	emit_signal("died")
+	
+func _on_something_entered(other_area):
+	die()

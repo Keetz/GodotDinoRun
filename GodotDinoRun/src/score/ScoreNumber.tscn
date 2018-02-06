@@ -2,7 +2,7 @@
 
 [ext_resource path="res://assets/font-number-40x40.png" type="Texture" id=1]
 
-[node name="ScoreNumber" type="Sprite"]
+[node name="ScoreNumber" type="Sprite" index="0"]
 
 texture = ExtResource( 1 )
 hframes = 10

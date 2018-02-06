@@ -4,18 +4,20 @@
 [ext_resource path="res://src/background/SeaLayer.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/background/ForestLayer.tscn" type="PackedScene" id=3]
 
-[node name="Background" type="Node2D" index="0"]
+[node name="Background" type="Node2D"]
 
 _sections_unfolded = [ "Transform" ]
 
 [node name="SkyLayer" parent="." index="0" instance=ExtResource( 1 )]
 
 position = Vector2( -389.747, 48.6669 )
+flip = true
 scroll_time = 500.0
 
 [node name="SeaLayer" parent="." index="1" instance=ExtResource( 2 )]
 
 position = Vector2( -387.697, 270.982 )
+flip = true
 
 [node name="ForestLayer" parent="." index="2" instance=ExtResource( 3 )]
 
